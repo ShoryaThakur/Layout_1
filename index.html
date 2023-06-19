@@ -13,14 +13,14 @@
   </head>
   <body>
     <!-- Top Portion of the website -->
-    <div class="main">
+    <div class="main" id="Home">
       <div class="header">
-        <h3>Theory</h3>
+        <h3 onclick="return refresh();">Theory</h3>
         <span class="fa fa-navicon"></span>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Generic</a></li>
-          <li><a href="#">Elements</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Generic">Generic</a></li>
+          <li><a href="#Elements">Elements</a></li>
         </ul>
       </div>
       <div class="banner">
@@ -62,7 +62,7 @@
         <button>MORE</button>
       </div>
     </div>
-    <div class="test">
+    <div class="test" id="Generic">
       <div class="text">
         <h2>Ipsum Feugiat</h2>
         <br />
@@ -95,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="design">
+    <div class="design" id="Elements">
       <div class="text2">
         <h2>Nunc Dignissim</h2>
         <br />
