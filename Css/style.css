@@ -167,7 +167,7 @@ p {
   border: 1px solid white;
   max-height: 80%;
   text-align: center;
-  animation: slide 2s linear 5s ;
+  /* animation: slide 2s linear 5s ; */
 }
 .blocks img {
   margin: 20px 0px 10px 0px;
@@ -341,11 +341,11 @@ p {
     margin-top: 15px;
   }
 }
-@keyframes slide{
+/* @keyframes slide{
   0%{
     transform: translateX(-250px);
   }
   100%{
     transform: translateX(0px);
   }
-}
+} */
